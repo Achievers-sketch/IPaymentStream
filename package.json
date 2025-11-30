@@ -5,5 +5,8 @@
     "@tanstack/react-query": "^5.90.11",
     "viem": "^2.40.3",
     "wagmi": "^3.0.2"
+  },
+  "scripts": {
+    "build": "echo 'No build specified' && exit 0"
   }
 }

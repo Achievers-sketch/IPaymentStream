@@ -4,23 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micropayment Network</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        .card { border: 1px solid #ccc; padding: 16px; margin: 16px 0; border-radius: 8px; }
+        input { display: block; margin-bottom: 8px; width: 100%; padding: 8px; box-sizing: border-box; }
+    </style>
 </head>
 <body>
     <div id="root"></div>
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/babel">
-        function App() {
-            return (
-                <div>
-                    <h1>Welcome to the Micropayment Network</h1>
-                    <p>This is a basic frontend to interact with the payment stream contracts.</p>
-                </div>
-            );
-        }
-
-        ReactDOM.render(<App />, document.getElementById('root'));
-    </script>
+    <script type="text/babel" src="app.js"></script>
 </body>
 </html>
